@@ -10,7 +10,7 @@ const clockContainer = css`
   margin-top: 12px;
   margin-right: 12px;
   font-family: 'SF Mono';
-  font-size: 12px;
+  font-size: 13px;
 `;
 
 const clock = css`

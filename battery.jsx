@@ -10,7 +10,7 @@ const batteryContainer = css`
   margin-top: 12px;
   margin-right: 16px;
   font-family: 'SF Mono';
-  font-size: 12px;
+  font-size: 13px;
 `;
 
 const battery = css`

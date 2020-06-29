@@ -12,7 +12,7 @@ const workspacesContainer = css`
   margin-top: 12px;
   margin-left: 12px;
   font-family: 'SF Mono';
-  font-size: 12px;
+  font-size: 13px;
 `;
 
 const workspace = css`

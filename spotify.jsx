@@ -3,7 +3,7 @@ import { baseStyles } from './lib/styles.jsx'
 
 export const command = 'bash minima/scripts/spotify.sh';
 
-export const refreshFrequency = 20000;
+export const refreshFrequency = 15000;
 
 const spotifyContainer = css`
   position: fixed;

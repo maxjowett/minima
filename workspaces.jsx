@@ -1,4 +1,5 @@
 import { css } from 'uebersicht';
+import { baseStyles } from './lib/styles.jsx'
 
 export const command = 'bash minima/scripts/workspaces.sh';
 
@@ -9,10 +10,7 @@ const workspacesContainer = css`
   display: inline-grid;
   grid-auto-flow: column;
   grid-gap: 4px;
-  margin-top: 12px;
   margin-left: 12px;
-  font-family: 'SF Mono';
-  font-size: 13px;
 `;
 
 const workspace = css`
@@ -32,8 +30,9 @@ const inactive = css`
 
 export const render = ({ output }) => {
   let data = JSON.parse(output);
+  console.log(baseStyles)
   return (
-    <div className={workspacesContainer}>
+    <div className={`${baseStyles} ${workspacesContainer}`}>
       {data && data.map((w, i) => (
         <div
           key={i}

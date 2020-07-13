@@ -3,7 +3,7 @@ import { baseStyles, blockStyle } from './lib/styles.jsx';
 
 export const command = 'bash minima/scripts/right.sh';
 
-export const refreshFrequency = 15000;
+export const refreshFrequency = 10000;
 
 const BatteryIcon = () => {
   return (
@@ -67,11 +67,7 @@ export const render = ({ output }) => {
   const { time, batteryLevel, powerSource, currentlyPlaying } = parsed;
   return (
     <div className={`${baseStyles} ${rightContainer}`}>
-      {currentlyPlaying && (
-        <div className={blockStyle}>
-          {currentlyPlaying}
-        </div>
-      )}
+      {currentlyPlaying && <div className={blockStyle}>{currentlyPlaying}</div>}
       <div className={blockStyle}>
         <div className={splitLayout}>
           <div>

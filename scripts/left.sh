@@ -7,7 +7,7 @@ if [[ $LENGTH -gt 1 ]]
 then
     echo $SPACES_PRIMARY
 else
-    wait 1
+    sleep 1
     SPACES_PRIMARY_2=$(/usr/local/bin/yabai -m query --spaces --display 1)
     echo $SPACES_PRIMARY_2
 fi

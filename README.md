@@ -1,6 +1,6 @@
 # minima
 
-![Minima screenshot](/screenshots/demo.png?raw=true)
+![Minima screenshot](/screenshots/demo2.png?raw=true)
 
 A minimal status bar for macOS, that __displays the _active and available_ workspaces.__ Minima aims to follow macOS style guidelines as much as possible.
 
